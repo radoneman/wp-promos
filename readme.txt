@@ -47,3 +47,5 @@ Placeholder for answer
 * First release.
 
  == Upgrade Notice ==
+
+= 1.0 =
