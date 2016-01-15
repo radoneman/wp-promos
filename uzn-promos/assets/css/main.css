@@ -1,0 +1,353 @@
+/* general */
+html {
+	position: relative;	
+}
+body {
+	background: #f2f2f2;
+	font-family: "Roboto", Arial, Helvetica, sans-serif; 
+	font-size: 14px;
+	line-height: 1.8em;
+}
+a {
+	color: #ff3300;
+	text-decoration: none;
+	outline: none;
+}
+a:hover, 
+a:focus {
+	color: #dc2c00;
+	text-decoration: none;	
+	outline: none;
+}
+
+h1 {
+	color: #ed70a7;	
+	font-weight: 700;
+	font-size: 36px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
+}
+h2 {	
+	font-size: 22px;
+	line-height: 34px;	
+	margin-bottom: 18px;
+	text-align: center;
+}
+p {
+	color: #333333;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.4em;
+	margin-bottom: 20px;
+}
+
+.btn-primary {  
+	background-color: #ec4124;	
+	font-size: 18px;
+	font-weight: 400;
+	padding: 10px 30px;
+	border: none;
+	border-radius: 10px;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {  
+	background-color: #ff4d21;
+	border: none;	
+}
+
+.btn-default {  
+	background-color: #ec4124;	
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 10px 30px;
+	border: none;
+	border-radius: 10px;
+	text-transform: uppercase;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {  
+	background-color: #d33a20;
+	color: #ffffff;
+	border: none;	
+}
+.btn-default.disabled, 
+.btn-default[disabled],
+.btn-default.disabled:hover, 
+.btn-default[disabled]:hover,
+.btn-default.disabled:focus, 
+.btn-default[disabled]:focus,
+.btn-default.disabled:active, 
+.btn-default[disabled]:active {
+	background-color: #ec4124;	
+	color: #ffffff;
+	opacity: 1;
+} 
+
+.btn-facebook{  
+	background-color: #4e679d;	
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 10px;
+	text-transform: uppercase;
+}
+.btn-facebook:hover,
+.btn-facebook:focus,
+.btn-facebook:active,
+.btn-facebook.active,
+.open .dropdown-toggle.btn-facebook {  
+	background-color: #4e679d;
+	color: #ffffff;
+	border: none;	
+}
+.fb-icon {    
+    background-image: url("../img/icon-fb.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    height: 24px;
+    vertical-align: bottom;
+    width: 16px;
+    margin-right: 10px;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+	outline: none;
+}
+.btn-lg {
+	font-size: 26px;
+	padding: 15px 31px;
+	border-radius: 20px;
+	font-weight: 400;
+}
+
+.form-control {
+    background-color: #ffffff;
+    border: 1px solid #cacaca;
+    border-radius: 5px;
+    box-shadow: none;
+    color: #333333;
+    font-size: 14px;    
+    line-height: 1.42857;    
+    transition: none;
+}
+.form-control:focus {
+	border-color: #999999;
+	outline: 0;
+ 	 -webkit-box-shadow: none;
+  	         box-shadow: none;
+} 
+.form-control::-webkit-input-placeholder {
+	color:#FFF;
+}
+.form-control::-moz-placeholder { 
+	color:#FFF;
+    opacity: 1;
+}
+.form-control:-moz-placeholder { 
+	color:#FFF;
+    opacity: 1;
+}
+.form-control::-ms-input-placeholder { 
+	color:#FFF;
+}	/* IE10+ */
+
+label {
+	font-size: 15px;
+	font-weight: 500;	
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+/* template */
+.header {
+	background: #0095c2;
+	text-align: center;	
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	margin-top: 30px;	
+}
+.header .logo img {
+	text-align: center;
+	margin: auto;
+	padding: 15px 0;	
+}
+
+.content .graphic-circles {
+	margin-top: 150px;
+	margin-bottom: 40px;
+}
+
+.popup {
+	background: #ffffff;
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-bottomright: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;	
+	padding: 10px 30px 50px 30px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+.footer {
+	width: 100%;
+	text-align: center;
+}
+
+.footer .footer-links {
+	padding-top: 5px;
+	padding-bottom: 20px;
+}
+.footer .footer-links ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: inline-block;	
+}
+.footer .footer-links  ul li {
+	float: left;
+	margin: 0px 10px;
+}
+.footer .footer-links ul li a {
+	color: #cacaca;
+	font-size: 14px;	
+}
+.footer .footer-links  ul li a:hover {
+	color: #333;
+}
+
+/* form */
+.col-sep {
+    border-left: 1px solid #eaeaea;
+    height: 180px;
+    margin: auto;
+    position: relative;
+    width: 2px;
+}
+.col-sep span {
+	 -moz-user-select: none;
+    background: none repeat scroll 0 0 #ffffff;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    left: -20px;
+    margin-top: 70px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 40px;    
+}
+
+.form-error {
+	color: #ec4124;
+	font-weight: 500;	
+	padding: 10px;
+	border: 1px solid #ec4124;
+	margin-bottom: 15px;	
+}
+.form-terms {
+	color: #858585;
+	font-size: 14px;
+}
+.form-note {
+	padding-top: 40px;
+	color: #ffffff;
+	font-size: 18px;
+}
+.promo-header {
+	margin-bottom: 50px;	
+}
+
+.promo-header-container {
+	padding: 0;
+	text-align: center;
+}
+.promo-img {	
+	text-align: center;
+}
+.promo-h2 {
+	text-align: center;
+	margin: 0;
+}
+.promo-separator {
+	margin-top: 20px;
+}
+.promo-description {
+ 	padding-top: 20px;
+}
+
+.col-table {
+	display: table-cell;	
+	float: none;
+}
+.vertical-middle {
+    vertical-align: middle;    
+}
+
+/* small screens */
+@media (max-width: 767px) {
+	
+h1 {
+	font-size: 24px;
+}
+h2 {
+	font-size: 20px;
+}
+p {
+	font-size: 18px;
+	text-align: left;
+}
+
+.btn-lg {
+	font-size: 20px;
+	padding: 15px 30px;
+	border-radius: 15px;
+}
+
+}
+
+@media (max-width: 995px) {
+
+.text-right {
+	text-align: left;
+}
+
+}
+
+/* very large screens */
+@media (min-width: 1900px) {
+
+.container {
+    width: 1600px;
+}
+.container .col-md-11 {
+	width: 38%;
+}
+.content {
+	background-size: cover;
+}
+
+}
