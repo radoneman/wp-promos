@@ -45,3 +45,5 @@ Placeholder for answer
 
 = 1.0 =
 * First release.
+
+ == Upgrade Notice ==
